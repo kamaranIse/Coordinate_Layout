@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+    android:title="Populer"
+    app:showAsAction="never"
+    android:id="@+id/item_pop"
+     android:orderInCategory="1"
+
+    />
+    <item
+        android:title="top Release"
+        app:showAsAction="never"
+        android:id="@+id/item_release"
+        android:orderInCategory="1"
+        />
 </menu>
